@@ -51,41 +51,53 @@ hr {
     border: 1px solid black;
     box-shadow: 5px 5px 5px;
     background-color: #a8750e;
-    opacity: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding:1px;
     box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
-
-
-h2 {
+.biohead {
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Coming Soon', 'Arial Narrow', Arial, sans-serif;
     text-decoration: wavy;
-    font-size: 20pt;
-}
+    font-weight: bold;
+    font-size: 30pt;
+    margin-top: -5px;
+    margin-bottom: 0;
 
-.biophoto {
-    float: left;
-    width: 250px;
-    height: auto;
-    object-fit:contain;
-    margin-left: 3%;
-    margin-top:-3%;
-    border-radius: 3px;
-    box-shadow: 0 0 3px 3px black;
-    display: block;
 }
 
 .rakdoswords {
-    width: 70%;
-    padding-left: 25%;
-    text-align: center;
-    font-style:italic;
-    line-height: 1.5;
-    position:absolute;
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 14pt;
+    font-weight: bold;
+    line-height: 2;
+    font-family:'Coming Soon', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0;
+ 
+
+}
+
+#bio-text {
+    align-self: flex-start;
+    padding: 10px 50px;
+    flex-grow: 0.80;
+}
+
+.biophoto {
+    max-height: 350px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px 3px black;
+    display: inline-block;
+}
+
+#bio-photo-section {
+    padding-right: 20px;
 }
 
 .links {
