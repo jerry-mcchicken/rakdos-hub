@@ -46,7 +46,7 @@ hr {
 }
 
 .bio {
-    height: 400px;
+    min-height: 400px;
     width: 100%;
     border: 1px solid black;
     box-shadow: 5px 5px 5px;
@@ -58,6 +58,7 @@ hr {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    overflow: auto;
 }
 
 .biohead {
@@ -101,7 +102,7 @@ hr {
 }
 
 .links {
-    height: 30px;
+    height: fit-content;
     width: 80%;
     background-color: #a8750e;
     border: 1px solid black;
@@ -111,6 +112,8 @@ hr {
     padding:auto;
     display:flex;
     justify-content: space-evenly;
+    align-items: center;
+    overflow: auto;
 }
 
 #email-link {
@@ -137,13 +140,17 @@ a:hover {
 }
 
 .emaillist {
-    height: 400px;
+    min-height: 200px;
     width: 75%;
     border: 1px solid black;
     box-shadow: 5px 5px 5px;
     background-color: #a8750e;
-    opacity: 100%;
     margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: auto;
 }
 
 .emailask {
@@ -154,37 +161,36 @@ a:hover {
 }
 
 #email-icon {
-    display: inline;
-    float: right;
-    height:auto;
-    width: 400px;
-    min-width: 300px;
-    padding-right: 150px;
+    width:auto;
+    height: 150px;
 }
 
 form {
-    margin-left: 5%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14pt;
-    vertical-align:middle;
-    line-height: 3;
-    float: left;
+    line-height: 1.5;
+}
+
+#email-form-text {
+    padding-bottom: 5%;
 }
 
 .bestfriends {
-height: 400px;
+    min-height: 400px;
     width: 100%;
     border: 1px solid black;
     box-shadow: 5px 5px 5px;
     background-color: #a8750e;
-    opacity: 100%;
     margin-top: 0;
     margin-bottom: 30px;
     padding:1px;
     display:flex;
+    flex-direction: row;
     justify-content:space-evenly;
     align-content:baseline;
+    flex-wrap: wrap;
     border-top: none;
+    overflow: auto;
  
     
 }
@@ -222,4 +228,8 @@ height: 400px;
 
 }
 
+/******************** DISPLAY RESPONSIVITY ******************/
 
+@media (max-width:600px) {
+
+}
