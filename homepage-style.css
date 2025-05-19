@@ -115,9 +115,8 @@ a {
 a:hover {
     color:rgb(220, 145, 7);
 }
-a:visited {
-    color:white;
-}
+
+
 .tnc {
      margin-left: unset;
     margin-right:unset;
