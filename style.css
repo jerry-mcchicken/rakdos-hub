@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   /* background-color: #CBC9AD; */
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWJ4ZzY0MXZycGhxMWltc2ZxYzllMW42NWdiMGRuNTNtb2JsN3ByZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l378wcSfS7eXWQgla/giphy.gif");
+    background-size: cover; 
+}
+
+
+
+.rakdoshub {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: wavy;
+    font-size: 60pt;
+}
+
+.teaser {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: wavy;
+    font-size: 20pt;
+    margin-top: -50px; 
+    margin-bottom: 50px;
+}
+
+hr {
+    height: 1pt;
+    color: black;
+    background-color: black;
+    border-width:0;
+    margin: auto;
+    width: 75%;
+    
+}
+
+.openingPhoto {
+    display: block;
+    margin: 20px auto 20px;
+    padding: 1px;
+    width: auto;
+    border-radius: 3px;
+    box-shadow: 0 0 3px 3px black;
+}
+
+.bio {
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px;
+    background-color: #a8750e;
+    opacity: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:1px;
+    box-sizing: border-box;
+}
+
+
+
+h2 {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: wavy;
+    font-size: 20pt;
+}
+
+.biophoto {
+    float: left;
+    width: 250px;
+    height: auto;
+    object-fit:contain;
+    margin-left: 3%;
+    margin-top:-3%;
+    border-radius: 3px;
+    box-shadow: 0 0 3px 3px black;
+    display: block;
+}
+
+.rakdoswords {
+    width: 70%;
+    padding-left: 25%;
+    text-align: center;
+    font-style:italic;
+    line-height: 1.5;
+    position:absolute;
+}
+
+.links {
+    height: 30px;
+    width: 80%;
+    background-color: #a8750e;
+    border: 1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-35px;
+    padding:auto;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#email-link {
+    scroll-behavior:smooth;
+}
+
+a {
+    font-size: 18pt;
+    text-align: center;
+    color: black;
+    
+}
+
+a:hover {
+    color:rgb(220, 145, 7);
+}
+a:visited {
+    color:white;
+}
+.tnc {
+     margin-left: unset;
+    margin-right:unset;
+    font-size: unset;
+    text-align: unset;
+}
+
+.emaillist {
+    height: 400px;
+    width: 75%;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px;
+    background-color: #a8750e;
+    opacity: 100%;
+    margin: 30px auto;
+}
+
+.emailask {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: wavy;
+    font-size: 20pt;
+}
+
+#email-icon {
+    display: inline;
+    float: right;
+    height:auto;
+    width: 400px;
+    min-width: 300px;
+    padding-right: 150px;
+}
+
+form {
+    margin-left: 5%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14pt;
+    vertical-align:middle;
+    line-height: 3;
+    float: left;
+}
+
+.bestfriends {
+height: 400px;
+    width: 100%;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px;
+    background-color: #a8750e;
+    opacity: 100%;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding:1px;
+    display:flex;
+    justify-content:space-evenly;
+    align-content:baseline;
+    border-top: none;
+ 
+    
+}
+
+#sylbox {
+     height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px;
+    background-color: #a8750e;
+    opacity: 100%;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding:1px;
+    box-sizing: border-box;
+    text-align: center;
+    border-bottom: none;
+}
+
+.bestfriends img {
+    width: auto;
+    display:block;
+    height: 300px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px 3px black;
+    margin: auto;
+
+}
+
+.bestfriends figcaption {
+    text-align: center;
+    margin-top: 25px;
+    font-family:'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    font-size:20pt;
+
+}
+
+
