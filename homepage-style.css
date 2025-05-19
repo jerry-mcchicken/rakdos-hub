@@ -121,10 +121,10 @@ hr {
 }
 
 a {
-    font-size: 18pt;
+   /* font-size: 18pt; */ /*turns out, vw is better for scaling to different viewports */
+    font-size: 2vw;
     text-align: center;
     color: black;
-    
 }
 
 a:hover {
