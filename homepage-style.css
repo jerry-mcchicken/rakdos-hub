@@ -94,7 +94,7 @@ hr {
 .rakdoswords {
     text-align: justify;
     text-indent: 2em;
-    font-size: 14pt;
+    font-size: 1rem;
     font-weight: bold;
     line-height: 2;
     font-family:'Coming Soon', 'Arial Narrow', Arial, sans-serif;
@@ -232,8 +232,9 @@ form {
 
 .bestfriends img {
     width: auto;
+    max-width: 100%;
     display:block;
-    height: 300px;
+    max-height: 300px;
     border-radius: 3px;
     box-shadow: 0 0 3px 3px black;
     margin: auto;
@@ -248,8 +249,18 @@ form {
 
 }
 
-/******************** DISPLAY RESPONSIVITY ******************/
+/******************** MOBILE DISPLAY ******************/
 
 @media (max-width:600px) {
-
+    .bio {
+    flex-direction: column;
 }
+#email-icon {
+    display:none;
+}
+.links a {
+    font-size: 1rem;
+}
+    
+}
+   
