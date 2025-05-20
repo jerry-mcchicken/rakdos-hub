@@ -261,6 +261,8 @@ form {
 .links a {
     font-size: 1rem;
 }
-    
+.openingPhoto {
+    max-width: 100%;
+}
 }
    
