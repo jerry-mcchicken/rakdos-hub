@@ -249,6 +249,13 @@ form {
 
 }
 
+.playing-video {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
 /******************** MOBILE DISPLAY ******************/
 
 @media (max-width:600px) {
