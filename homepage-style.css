@@ -251,9 +251,11 @@ form {
 
 .playing-video {
     display: flex;
-    justify-content: center;
-    
-    
+    justify-content: center; 
+}
+.playing-video iframe {
+     border: 15px solid #a8750e;
+     border-radius: 5px;
 }
 
 /******************** MOBILE DISPLAY ******************/
